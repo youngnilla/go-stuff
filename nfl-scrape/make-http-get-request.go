@@ -12,7 +12,8 @@ import (
 // main func
 func main() {
 	// Make HTTP GET req
-	response, err := http.Get("https://devdungeon.com")
+	// (demo) response, err := http.Get("https://devdungeon.com")
+	response, err := http.Get("https://www.pro-football-reference.com/years/2021/passing.htm")
 	if err != nil {
 		log.Fatal(err)
 	}
